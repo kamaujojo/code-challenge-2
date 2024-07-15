@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: rgb(12, 1, 71);
+    
+}
+
+
+.container {
+    max-width: 500px;
+    margin: auto;
+   /*  background-image: url('');
+    background-size: cover;
+    background-position: center;  
+    height: 100%vh; */
+   
+}
+
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.input-group button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.purchased {
+    text-decoration: line-through;
+    background-color: #d3d3d3;
+}
